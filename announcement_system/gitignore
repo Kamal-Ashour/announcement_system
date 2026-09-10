@@ -1,0 +1,10 @@
+# Local DB config (contains real credentials on production)
+config/db.php
+
+# Tool-specific config, not part of the project
+.qodo/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/

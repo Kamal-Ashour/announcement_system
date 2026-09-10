@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f6f7f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.topbar {
+    background: #ffffff;
+    padding: 12px 14px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bold;
+    text-decoration: none;
+    color: #111827;
+}
+
+.nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #374151;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 14px;
+    margin-top: 14px;
+}
+
+.card h2, .card h3 {
+    margin: 0 0 10px 0;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    margin: 6px 0 12px 0;
+}
+
+.btn {
+    padding: 10px 14px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #2563eb;
+    color: white;
+}
+
+.btn-danger {
+    background: #dc2626;
+    color: white;
+}
+
+.btn-secondary {
+    background: #6b7280;
+    color: white;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.row .col {
+    flex: 1;
+    min-width: 220px;
+}
+
+.notice {
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.notice-success {
+    background: #ecfdf5;
+    border: 1px solid #10b981;
+}
+
+.notice-error {
+    background: #fef2f2;
+    border: 1px solid #ef4444;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #e5e7eb;
+    padding: 8px;
+    text-align: left;
+}
+
+.meta {
+    color: #6b7280;
+    font-size: 13px;
+}
+
+.footer {
+    text-align: center;
+    margin: 18px 0;
+    color: #6b7280;
+}
+
+.smalllink {
+    font-size: 14px;
+}
+
+/* Forms */
+.form {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 14px;
+}
+
+.form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.alert {
+    background: #fff7ed;
+    border: 1px solid #fed7aa;
+    color: #9a3412;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+a {
+    color: #0f172a;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
