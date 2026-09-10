@@ -20,7 +20,7 @@ if (isset($_POST['login'])) {
         if ($user && password_verify($pass, $user['password'])) {
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['role'] = $user['role'];
-            header("Location: /announcement_system/index.php");
+            header("Location: /index.php");
             exit;
         } else {
             $msg = "Wrong email or password.";
@@ -46,7 +46,7 @@ include __DIR__ . '/../partials/header.php';
 
     <button class="btn" type="submit" name="login">Login</button>
     <div class="smalllink">
-        Don't have an account? <a href="/announcement_system/auth/register.php">Register</a>
+        Don't have an account? <a href="/auth/register.php">Register</a>
     </div>
 </form>
 

@@ -25,8 +25,8 @@ mysqli_stmt_bind_param($del, "i", $id);
 mysqli_stmt_execute($del);
 
 if (is_admin() && isset($_GET['from']) && $_GET['from'] === 'admin') {
-    header("Location: /announcement_system/admin/announcements.php");
+    header("Location: /admin/announcements.php");
 } else {
-    header("Location: /announcement_system/announcements/my.php");
+    header("Location: /announcements/my.php");
 }
 exit;

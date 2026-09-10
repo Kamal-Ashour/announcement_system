@@ -33,7 +33,7 @@ include __DIR__ . '/../partials/header.php';
                 <?php if ($u['id'] == $_SESSION['user_id']): ?>
                     (You)
                 <?php else: ?>
-                    <a href="/announcement_system/admin/delete_user.php?id= <?php echo $u['id']; ?> " onclick="return confirm('Delete this user?');">Delete</a>
+                    <a href="/admin/delete_user.php?id= <?php echo $u['id']; ?> " onclick="return confirm('Delete this user?');">Delete</a>
                 <?php endif; ?>
             </td>
         </tr>

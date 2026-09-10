@@ -14,7 +14,7 @@ function is_admin(): bool {
 
 function require_login(): void {
     if (!is_logged_in()) {
-        header("Location: /announcement_system/auth/login.php");
+        header("Location: /auth/login.php");
         exit;
     }
 }

@@ -28,7 +28,7 @@ if (isset($_POST['register'])) {
             mysqli_stmt_bind_param($stmt, "ssss", $first, $last, $email, $password_hash);
             mysqli_stmt_execute($stmt);
 
-            header("Location: /announcement_system/auth/login.php");
+            header("Location: /auth/login.php");
             exit;
         }
     }
@@ -58,6 +58,6 @@ include __DIR__ . '/../partials/header.php';
 
     <button class="btn" type="submit" name="register">Create Account</button>
     <div class="smalllink">
-        Already have an account? <a href="/announcement_system/auth/login.php">Login</a>
+        Already have an account? <a href="/auth/login.php">Login</a>
     </div>
 </form>

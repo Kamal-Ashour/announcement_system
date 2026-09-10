@@ -21,5 +21,5 @@ $del = mysqli_prepare($conn, "DELETE FROM users WHERE id = ?");
 mysqli_stmt_bind_param($del, "i", $id);
 mysqli_stmt_execute($del);
 
-header("Location: /announcement_system/admin/users.php");
+header("Location: /admin/users.php");
 exit;

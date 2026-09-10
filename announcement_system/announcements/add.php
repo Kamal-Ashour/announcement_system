@@ -17,7 +17,7 @@ if (isset($_POST['add'])) {
         $stmt = mysqli_prepare($conn, "INSERT INTO announcements (title, content, user_id) VALUES (?, ?, ?)");
         mysqli_stmt_bind_param($stmt, "ssi", $title, $content, $uid);
         mysqli_stmt_execute($stmt);
-        header("Location: /announcement_system/announcements/my.php");
+        header("Location: /announcements/my.php");
         exit;
     }
 }

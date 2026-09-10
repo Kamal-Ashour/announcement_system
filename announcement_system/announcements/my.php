@@ -30,9 +30,9 @@ include __DIR__ . '/../partials/header.php';
                 <td><?php echo $row['title']; ?></td>
                 <td><?php echo $row['created_at']; ?></td>
                 <td>
-                    <a href="/announcement_system/announcements/edit.php?id=<?php echo $row['id']; ?>">Edit</a>
+                    <a href="/announcements/edit.php?id=<?php echo $row['id']; ?>">Edit</a>
                     |
-                    <a href="/announcement_system/announcements/delete.php?id=<?php echo $row['id']; ?>" onclick="return confirm('Delete this announcement?');">Delete</a>
+                    <a href="/announcements/delete.php?id=<?php echo $row['id']; ?>" onclick="return confirm('Delete this announcement?');">Delete</a>
                 </td>
             </tr>
         <?php endwhile; ?>
